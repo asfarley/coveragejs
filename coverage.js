@@ -1,4 +1,4 @@
-function renderCoverage(coverage,elementID,outlineColor,fillColor, elementWidth = 1, elementHeight = 20)
+function renderCoverage(coverage,elementID, outlineColor = "#0000AA",fillColor = "#DDDDFF", elementWidth = 1, elementHeight = 20)
 {
 	var canvas = document.getElementById(elementID);
 	if (canvas.getContext) {

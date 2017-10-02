@@ -28,7 +28,7 @@
 	  
 	  &lt;script type="text/javascript"&gt;
 		var coverage = [1,0,0,1,1,1,1,0,0,1];
-		renderCoverage(coverage,'canvas',"#0000AA","#DDDDFF");
+		renderCoverage(coverage,'canvas');
 	  &lt;/script&gt;
 	  </pre>
 	  <br>
@@ -42,9 +42,9 @@
    function autorun()
    {
 	var coverage = [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
-	renderCoverage(coverage,'canvas',"#0000AA","#DDDDFF")
+	renderCoverage(coverage,'canvas')
 	renderCoverage(coverage,'canvas2',"#AA0000","#FFDDDD",2,10)	
-	renderCoverage(coverage,'canvas4',"#0000AA","#DDDDFF")
+	renderCoverage(coverage,'canvas4')
 	renderCoverage(coverage,'canvas3',"#AA0000","#FFDDDD",2,10)	
    }
    if (window.addEventListener) window.addEventListener("load", autorun, false);
